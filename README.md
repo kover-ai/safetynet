@@ -51,14 +51,14 @@ If you already know the user's income level, you can pass it to the module here.
 
 **benefits** `[string]`
 
-Benefits included in the membership, expressed as a list of strings. The value will be one of the following: `accident`, `hospitalization`, `sick leave` and `deactivation`
+Benefits included in the membership, expressed as a list of strings. The values will be the following: `accident`, `hospitalization`, `sick leave` and `deactivation`
 
 **review_benefit** `boolean`
 
 If set to true, display the benefits as a slide show for the customers to review.
 
 **perks** `[string]`
-Perks included in the membership, expressed as a list of strings. The value will be one of the following: `hurdlr`, `fonemed`, `legalrideshare_deactivation`, `legalrideshare_consult` and `kover_earning_dashboard`.
+Perks included in the membership, expressed as a list of strings. The value will be the following: `hurdlr`, `fonemed`, `legalrideshare_deactivation`, `legalrideshare_consult` and `kover_earning_dashboard`.
 
 **review_perks** `boolean`
 
@@ -66,7 +66,7 @@ If set to true, display the perks as a slide show for the customers to review. I
 
 **gig_accounts** `[string]`
 
-List of gig accounts that the customers will be allowed to link. The value will be one of the following: `uber`, `lyft`, `instacart`, `postmates`, `doordash`, `grubhub`, `amazon_flex`, `shipt`, `cavier`, `wonolo`.
+List of gig accounts that the customers will be allowed to link. The value will be the following: `uber`, `lyft`, `instacart`, `postmates`, `doordash`, `grubhub`, `amazon_flex`, `shipt`, `cavier`, `wonolo`.
 
 **new_payment_method** `boolean`
 
