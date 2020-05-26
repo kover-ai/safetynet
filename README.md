@@ -12,9 +12,11 @@ You can use this drop-in module to offer your users Kover's `Gig Worker Safety N
 
 ## Authentication
 **public_key** `string`
+
 This is a 42 digit alphanumeric string that's paired with a private_key you'll need to retrieve customer data from the server side.
 
 **argyle_token** `string` (optional)
+
 If the users are expected to link any of the Gig App accounts, Kover evokes the `Arglye` module. By default, we use our own Argyle credentials. If you wish to use your own Argyle credential, you can pass your Argyle `pluginKey` here.
 
 ```
