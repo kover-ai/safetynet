@@ -1,7 +1,7 @@
 # Gig Worker Safety Net
 
 ## Overview
-You can use this drop-in module to offer your customers Kover's `Gig Worker Safety Net` membership to your users. Offering relevant benefits and perks to your users shows that you care about them while also helps you earn commission for each membership sold. Information about what the membership includes can be found on https://www.kover.ai.
+You can use this drop-in module to offer your users Kover's `Gig Worker Safety Net` membership. Offering relevant benefits and perks to your users shows that you care about them while also helps you earn commission for each membership sold. Information about what the membership includes can be found on https://www.kover.ai.
 
 <center>
 <img src="https://i.ibb.co/F8sBdwb/Screen-Shot-2020-05-26-at-1-13-51-PM.png" alt="Screen-Shot-2020-05-26-at-1-13-51-PM" border="0"/>
