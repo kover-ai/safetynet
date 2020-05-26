@@ -58,7 +58,7 @@ Benefits included in the membership, expressed as a list of strings. The value w
 If set to true, display the benefits as a slide show for the customers to review.
 
 **perks** `[string]`
-Perks included in the membership, expressed as a list of strings. The value will be one of the following: `hurdlr`, `fonemed`, `legalrideshare` and `kover_earning_dashboard`.
+Perks included in the membership, expressed as a list of strings. The value will be one of the following: `hurdlr`, `fonemed`, `legalrideshare_deactivation`, `legalrideshare_consult` and `kover_earning_dashboard`.
 
 **review_perks** `boolean`
 
