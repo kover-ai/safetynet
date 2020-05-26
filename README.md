@@ -51,7 +51,7 @@ If you already know the user's income level, you can pass it to the module here.
 
 **benefits** `[string]`
 
-Benefits included in the membership, expressed as a list of strings. The values will be the following: `accident`, `hospitalization`, `sick leave` and `deactivation`
+Benefits included in the membership, expressed as a list of strings. The values will be the following: `accident`, `hospitalization`, `sick_leave` and `deactivation`
 
 **review_benefit** `boolean`
 
