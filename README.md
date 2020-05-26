@@ -45,6 +45,10 @@ If the users are expected to link any of the Gig App accounts, Kover evokes the 
 
 User's email address. If this is not provided, the module will ask the user to enter an email address.
 
+**income** `float` (optional)
+
+If you already know the user's income level, you can pass it to the module here. If this is given, the user will be prompted to confirm the number. If this parameter is not passed, we'll ask the user to manually enter this info.
+
 **benefits** `[string]`
 
 Benefits included in the membership, expressed as a list of strings. The value will be one of the following: `accident`, `hospitalization`, `sick leave` and `deactivation`
