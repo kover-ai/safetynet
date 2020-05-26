@@ -1,1 +1,41 @@
-# safetynet
+# Gig Worker Safety Net
+
+## Overview
+You can use this drop-in module to offer your customers Kover's `Gig Worker Safety Net` membership to your users. Offering relevant benefits and perks to your users shows that you care about them while also helps you earn commission for each membership sold. Information about what the membership includes can be found on https://www.kover.ai.
+
+<center>
+<img src="https://i.ibb.co/F8sBdwb/Screen-Shot-2020-05-26-at-1-13-51-PM.png" alt="Screen-Shot-2020-05-26-at-1-13-51-PM" border="0"/>
+</center>
+
+## Parameters
+
+**email** `string` (optional)
+
+User's email address. If this is not provided, the module will ask the user to enter an email address.
+
+**benefits** `[string]`
+
+Benefits included in the membership, expressed as a list of strings. The value will be one of the following: `accident`, `hospitalization`, `sick leave` and `deactivation`
+
+**review_benefit** `boolean`
+
+If set to true, display the benefits as a slide show for the customers to review.
+
+**perks** `[string]`
+Perks included in the membership, expressed as a list of strings. The value will be one of the following: `hurdlr`, `fonemed`, `legalrideshare` and `kover_earning_dashboard`.
+
+**review_perks** `boolean`
+
+If set to true, display the perks as a slide show for the customers to review. If set to true, perks will always be displayed after benefits.
+
+**gig_accounts** `[string]`
+
+List of gig accounts that the customers will be allowed to link. The value will be one of the following: `uber`, `lyft`, `instacart`, `postmates`, `doordash`, `grubhub`, `amazon_flex`, `shipt`, `cavier`, `wonolo`.
+
+**new_payment_method** `boolean`
+
+If set to true, the user will be prompted to enter their payment method when enrolling. If you have set up direct payment with Kover,this field can be set to `False` and when the user enrolls, we'll deduct the premium from your payment method on file and you can deduct the premium from the customer's account directly.
+
+**redirect_to** `string`
+
+This is the URL that the user will be directed to after successful enrollment.
