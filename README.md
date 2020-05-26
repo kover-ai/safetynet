@@ -7,6 +7,36 @@ You can use this drop-in module to offer your users Kover's `Gig Worker Safety N
 <img src="https://i.ibb.co/F8sBdwb/Screen-Shot-2020-05-26-at-1-13-51-PM.png" alt="Screen-Shot-2020-05-26-at-1-13-51-PM" border="0"/>
 </center>
 
+## API
+'https://www.kover.ai/api/product/safetynet/v1/api'
+
+## Authentication
+**public_key** `string`
+This is a 42 digit alphanumeric string that's paired with a private_key you'll need to retrieve customer data from the server side.
+
+**argyle_token**
+If the users are expected to link any of the Gig App accounts, Kover evokes the `Arglye` module. By default, we use our own Argyle credentials. If you wish to use your own Argyle credential, you can pass your Argyle `pluginKey` here.
+
+```
+<!doctype html>
+<html>
+  <head>
+      <meta charset="utf-8"/>
+  </head>
+  <body>
+    <script src="https://kover.ai/api/product/safetynet/v1/js"></script>
+    <script type="text/javascript">
+      const kover = Kover.create({
+        apiHost: 'https://www.kover.ai/api/product/safetynet/v1',
+        pluginKey: 'public_key',
+        pluginKey: 'pluginKey'
+      });
+      kover.open();
+    </script>
+  </body>
+</html>
+```
+
 ## Parameters
 
 **email** `string` (optional)
