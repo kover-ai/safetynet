@@ -30,8 +30,8 @@ If the users are expected to link any of the Gig App accounts, Kover evokes the 
     <script type="text/javascript">
       const kover = Kover.create({
         apiHost: 'https://www.kover.ai/api/product/safetynet/v1',
-        pluginKey: 'public_key',
-        pluginKey: 'pluginKey'
+        koverKey: 'public_key',
+        argyleKey: 'pluginKey'
       });
       kover.open();
     </script>
