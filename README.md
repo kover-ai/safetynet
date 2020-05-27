@@ -12,7 +12,7 @@ You can use this drop-in module to offer your users Kover's `Gig Worker Safety N
 ### 1.2 API
 `https://www.kover.ai/api/product/safetynet/v1/api`
 
-### 1.3Authentication
+### 1.3 Authentication
 **public_key** `string`
 
 This is a 42 digit alphanumeric string that's paired with a private_key you'll need to retrieve customer data from the server side.
