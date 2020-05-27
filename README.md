@@ -33,15 +33,15 @@ If the users are expected to link any of the Gig App accounts, Kover evokes the 
         koverKey: 'public_key',
         argyleKey: 'pluginKey',
         data: {
-          "has_argyle": true,
-          "email": "example@example.com",
+          "has_argyle": true,             // whether or not they linked Argyle account through Gridwise
+          "email": "example@example.com", // this is their email with you (unique identifier)
           "monthly_income": 3289,
           "argyle_info": {
             "uber": {
-              "first_name": "John",
-              "last_name": "Smith",
+              "first_name": "",
+              "last_name": "",
               "phone_number": "",
-              "email": "",
+              "email": "",                // this is their email address with gig Apps, based on Argyle response
               "address": "",
               "birthday": ""
             }
