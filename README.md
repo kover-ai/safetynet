@@ -92,3 +92,78 @@ If set to true, the user will be prompted to enter their payment method when enr
 **redirect_to** `string`
 
 This is the URL that the user will be directed to after successful enrollment.
+
+## 2. Track API
+
+### 2.1 Overview
+You can view the performance of your module and retrieve information about the members you succesfully refer using the Track API. 
+
+### 2.2 API
+`https://www.kover.ai/api/product/safetynet/v1/track`
+
+### 2.3 Authentication
+**private_key** `string`
+
+This is a 64-digit alphanumeric string that's paired with the publick key you used to activate the checkout flow module.
+
+### 2.4 Endpoints
+
+**/logs** `GET`
+
+Sample Output:
+```
+{
+  "status": "ok",
+  "logs": {
+    "2020-05-11T20:18:00Z": 12,   // number of seconds the module was activated
+    "2020-05-12T3:19:34Z": 239, 
+    ""
+  }
+}
+```
+
+**/pipeline** `GET`
+
+Sample Output:
+```
+{
+  "status": "ok",
+  "leads": {
+    "example@exmaple.com": "2020-05-12T3:19:34Z"
+  }
+}
+```
+
+**/members** `GET`
+
+Sample Output
+```
+{
+  "status": "ok",
+  "members": {
+    "0x89205A3A3b2A69De6Dbf7f01ED13B2108B2c43e7": {
+      "profile": {
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "enroll_ts": "",
+        "status": "active"
+      },
+      "benefits": {
+        "accident": "active",
+        "hospitalization": "active"
+      },
+      "perks": {
+        "hurdlr": "inactive",
+        "fonemed": "active"
+      },
+      "claims": {
+      },
+      "perk_utilization": {
+        "fonemed": ["2020-03-14T3:19:34Z", "2020-05-12T3:19:34Z"]
+      }
+    }
+  }
+}
+```
+
