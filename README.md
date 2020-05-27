@@ -1,16 +1,18 @@
 # Gig Worker Safety Net
 
-## Overview
+## Checkout Flow
+
+### Overview
 You can use this drop-in module to offer your users Kover's `Gig Worker Safety Net` membership, without leaving your website. Offering relevant benefits and perks to your users shows that you care about them while also helps you earn commission for each membership sold. Information about what the membership includes can be found on https://www.kover.ai.
 
 <center>
 <img src="https://i.ibb.co/F8sBdwb/Screen-Shot-2020-05-26-at-1-13-51-PM.png" alt="Screen-Shot-2020-05-26-at-1-13-51-PM" border="0"/>
 </center>
 
-## API
+### API
 `https://www.kover.ai/api/product/safetynet/v1/api`
 
-## Authentication
+#### Authentication
 **public_key** `string`
 
 This is a 42 digit alphanumeric string that's paired with a private_key you'll need to retrieve customer data from the server side.
@@ -54,7 +56,7 @@ If the users are expected to link any of the Gig App accounts, Kover evokes the 
 </html>
 ```
 
-## Parameters
+### Parameters
 
 **email** `string` (optional)
 
