@@ -35,8 +35,17 @@ If the users are expected to link any of the Gig App accounts, Kover evokes the 
         data: {
           "has_argyle": true,
           "email": "example@example.com",
-          "argyle_info": {...},
-          "monthly_income": 3289
+          "monthly_income": 3289,
+          "argyle_info": {
+            "uber": {
+              "first_name": "John",
+              "last_name": "Smith",
+              "phone_number": "",
+              "email": "",
+              "address": "",
+              "birthday": ""
+            }
+          }
         }
       });
       kover.open();
