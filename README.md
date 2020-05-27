@@ -31,7 +31,13 @@ If the users are expected to link any of the Gig App accounts, Kover evokes the 
       const kover = Kover.create({
         apiHost: 'https://www.kover.ai/api/product/safetynet/v1',
         koverKey: 'public_key',
-        argyleKey: 'pluginKey'
+        argyleKey: 'pluginKey',
+        data: {
+          "has_argyle": true,
+          "email": "example@example.com",
+          "argyle_info": {...},
+          "monthly_income": 3289
+        }
       });
       kover.open();
     </script>
